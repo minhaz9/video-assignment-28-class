@@ -1,0 +1,272 @@
+.header_menu {
+  z-index: 999;
+}
+
+.navbar-collapse .navbar-nav .nav-item a {
+  font-weight: bold;
+}
+
+.navbar-collapse .navbar-nav .nav-item ul li a {
+  transition: all .5s;
+}
+
+.navbar-collapse .navbar-nav .nav-item ul li:hover a {
+  background: #000 !important;
+  color: white;
+}
+
+.ohh_no {
+  position: relative;
+}
+
+.ohh_no .ohh_shit {
+  position: absolute;
+  top: -399px;
+  left: 0;
+  text-align: justify;
+}
+
+.banner_bottom {
+  margin-top: -130px;
+}
+
+.courses {
+  padding-top: 60px;
+}
+
+.courses p {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.available .container .row .col-lg-4 .card {
+  overflow: hidden;
+  transition: all .5s;
+  z-index: 1;
+  position: relative;
+}
+
+.available .container .row .col-lg-4 .card .inner_content .image {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.available .container .row .col-lg-4 .card .inner_content .image img {
+  transition: all .5s;
+}
+
+.available .container .row .col-lg-4 .card .inner_content .image_bottom {
+  transition: .54s;
+}
+
+.available .container .row .col-lg-4 .card .inner_content .image_bottom .btn a {
+  box-shadow: 0px 0px 15px #0997f5;
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.available .container .row .col-lg-4 .card .inner_content .image_bottom .btn a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #e15f41;
+  width: 0;
+  height: 100%;
+  transition: .5s;
+  z-index: -1;
+}
+
+.available .container .row .col-lg-4 .card .inner_content .image_bottom .btn a:hover {
+  box-shadow: 0px 0px 15px #67f509;
+}
+
+.available .container .row .col-lg-4 .card .inner_content .image_bottom .btn a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.available .container .row .col-lg-4 .card::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-image: linear-gradient(to right top, #de3b3b, #de6517, #d08b00, #b7ad00, #91cc2d, #73d657, #4edf7c, #00e6a0, #00ddaf, #00d4b9, #2acabf, #4ac0c0);
+  width: 0%;
+  transition: .6s;
+  z-index: -1;
+}
+
+.available .container .row .col-lg-4 .card::before {
+  content: "";
+  position: absolute;
+  height: 0%;
+  background-image: linear-gradient(to right top, #de3b3b, #de6517, #d08b00, #b7ad00, #91cc2d, #73d657, #4edf7c, #00e6a0, #00ddaf, #00d4b9, #2acabf, #4ac0c0);
+  width: 100%;
+  transition: .9s;
+  z-index: -1;
+}
+
+.available .container .row .col-lg-4 .card:hover::before {
+  height: 100%;
+  bottom: 0%;
+  color: white;
+}
+
+.available .container .row .col-lg-4 .card:hover::after {
+  width: 100%;
+  right: 0%;
+}
+
+.available .container .row .col-lg-4 .card:hover .inner_content .image_bottom {
+  color: white;
+}
+
+.available .container .row .col-lg-4 .card:hover .inner_content .image img {
+  transform: scale(1.18) rotate(1deg);
+}
+
+.btn a {
+  box-shadow: 0px 0px 15px #0997f5;
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #e15f41;
+  width: 0;
+  height: 100%;
+  transition: .5s;
+  z-index: -1;
+}
+
+.btn a:hover {
+  box-shadow: 0px 0px 15px #67f509;
+}
+
+.btn a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.dak {
+  height: 3px;
+  width: 50px;
+  background: white;
+}
+
+.join_course .out_content {
+  background-image: url(./img/home-section3-bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.join_course .out_content .container .row .col-lg-6 .inner_content p {
+  font-size: 16px;
+}
+
+.join_course .out_content .container .row .col-lg-6 .inner_content .icon_section .col-lg-6 .row .col-lg-2 a {
+  display: inline-block;
+}
+
+.join_course .out_content .container .row .col-lg-6 .inner_content .icon_section .col-lg-6 .row .col-lg-2 a i {
+  background: white;
+  padding: 13px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+
+.join_course .out_content .container .row .col-lg-6 .inner_content .icon_section .col-lg-6 .row .col-lg-10 {
+  padding-left: 18px;
+}
+
+.join_course .out_content .container .row .col-lg-6 .inner_content .icon_section .col-lg-6 .row .col-lg-10 h6 {
+  margin-bottom: 0px;
+  transition: .4s;
+}
+
+.join_course .out_content .container .row .col-lg-6 .inner_content .icon_section .col-lg-6 .row .col-lg-10 h6:hover {
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.join_course .out_content .container .row .col-lg-6 .inner_content .icon_section .col-lg-6 .row .col-lg-10 p {
+  font-size: 14px;
+}
+
+.footer_section .bg_footer {
+  background-image: url(./image/section4-bg.jpg);
+  background-attachment: fixed;
+  padding: 50px 0px 0px 0px;
+}
+
+.footer_section .bg_footer .container .row .col-md-3 .inner_section {
+  color: #ffffff;
+}
+
+.footer_section .bg_footer .container .row .col-md-3 .inner_section h4 {
+  color: #ffffff;
+}
+
+.footer_section .bg_footer .container .row .col-md-3 .inner_section .dak {
+  background: #c69453;
+  width: 50px;
+  height: 3px;
+  margin: 30px 0px;
+}
+
+.footer_section .bg_footer .container .row .col-md-3 .inner_section li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.footer_section .bg_footer .container .row .col-md-3 .inner_section li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  transition: .4s;
+  font-weight: 300;
+}
+
+.footer_section .bg_footer .container .row .col-md-3 .inner_section li a i {
+  font-size: 14px;
+}
+
+.footer_section .bg_footer .container .row .col-md-3 .inner_section li a:hover {
+  color: rgba(255, 85, 85, 0.863);
+}
+
+.footer_section .bg_footer .container .row .col-md-3 .inner_section p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.footer_section .bg_footer .footer-bottom {
+  background: rgba(0, 0, 0, 0.212);
+  padding: 25px 0px;
+  margin-top: 26px;
+  border-top: 1px solid white;
+}
+
+.footer_section .bg_footer .footer-bottom .container .row .col-md-9 p {
+  font-size: 15px;
+}
+
+.footer_section .bg_footer .footer-bottom .container .row .col-md-3 .icons ul li {
+  margin: 0px 15px;
+}
+
+.footer_section .bg_footer .footer-bottom .container .row .col-md-3 .icons ul li a {
+  color: #ffffff;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
