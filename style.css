@@ -202,6 +202,135 @@
   font-size: 14px;
 }
 
+.upcoming_events .container .row .col-lg-3 .inner_content {
+  position: relative;
+}
+
+.upcoming_events .container .row .col-lg-3 .inner_content::before {
+  content: "";
+  position: absolute;
+  right: -0.9rem;
+  top: -0.08rem;
+  width: 0;
+  z-index: -1;
+  height: 0;
+  border-style: solid;
+  border-width: 22px 0 0 22px;
+  border-color: transparent transparent transparent #c9c9c9;
+}
+
+.upcoming_events .container .row .col-lg-3 .inner_content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 16px 0 0;
+  border-color: #c9c9c9 transparent transparent transparent;
+}
+
+.upcoming_events .container .row .col-lg-3 .address_content {
+  position: relative;
+}
+
+.upcoming_events .container .row .col-lg-3 .address_content::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 0;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 22px 22px;
+  border-color: transparent transparent #c9c9c9 transparent;
+}
+
+.upcoming_events .container .row .col-lg-3 .address_content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -1rem;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-style: solid;
+  border-width: 0 20px 23px 0;
+  border-color: transparent #c9c9c9 transparent transparent;
+}
+
+.upcoming_events .container .row .col-lg-6 .inner_content {
+  background: #f5f1f1;
+  border-left: 15px solid #c9c9c9;
+  border-right: 15px solid #c9c9c9;
+}
+
+.event_bottom .bg_image {
+  background-image: url(./img/home-section5-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 5rem 0;
+}
+
+.event_bottom .bg_image .container .inner_content {
+  transition: .5s;
+}
+
+.event_bottom .bg_image .container .inner_content:hover {
+  background: #e6e6e6;
+  color: black;
+  box-shadow: 0px 0px 1rem blue;
+  border-color: #050702;
+  cursor: default;
+}
+
+.talented_instructors .container .row .col-lg-3 .inner_content {
+  position: relative;
+  z-index: 1;
+}
+
+.talented_instructors .container .row .col-lg-3 .inner_content .hover_item {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+  z-index: 9;
+  width: 100%;
+  height: 0;
+  background: rgba(27, 99, 233, 0.603);
+}
+
+.talented_instructors .container .row .col-lg-3 .inner_content .hover_item h5 {
+  color: white;
+}
+
+.talented_instructors .container .row .col-lg-3 .inner_content .hover_item p {
+  color: white;
+}
+
+.talented_instructors .container .row .col-lg-3 .inner_content .hover_item a {
+  color: #0919ff;
+}
+
+.talented_instructors .container .row .col-lg-3 .inner_content .hover_item a i {
+  font-size: 1.1rem;
+  background: white;
+  padding: .54rem;
+  border-radius: 50%;
+}
+
+.talented_instructors .container .row .col-lg-3 .inner_content:hover .hover_item {
+  visibility: visible;
+  opacity: 1;
+  padding-top: 40%;
+  height: 100%;
+}
+
 .footer_section .bg_footer {
   background-image: url(./image/section4-bg.jpg);
   background-attachment: fixed;
