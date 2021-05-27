@@ -322,6 +322,12 @@
   background: white;
   padding: .54rem;
   border-radius: 50%;
+  transition: .4s;
+}
+
+.talented_instructors .container .row .col-lg-3 .inner_content .hover_item a i:hover {
+  background: #000;
+  color: white;
 }
 
 .talented_instructors .container .row .col-lg-3 .inner_content:hover .hover_item {
@@ -329,6 +335,38 @@
   opacity: 1;
   padding-top: 40%;
   height: 100%;
+}
+
+.happy_student {
+  background-image: url(./img/home-section7-bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 3rem 2rem;
+}
+
+.happy_student .out_content .header p {
+  padding-bottom: 4rem;
+}
+
+.happy_student .container .row .col-lg-4 .inner_content .card .detail {
+  background: #c7c7c7 !important;
+}
+
+.latest_news .container .row .col-lg-4 .inner_content .card {
+  overflow: hidden;
+  transition: .5s;
+}
+
+.latest_news .container .row .col-lg-4 .inner_content .card .img img {
+  transition: .5s;
+}
+
+.latest_news .container .row .col-lg-4 .inner_content .card .detail {
+  margin-top: 1rem;
+}
+
+.latest_news .container .row .col-lg-4 .inner_content .card:hover .img img {
+  transform: scale(1.2);
 }
 
 .footer_section .bg_footer {
